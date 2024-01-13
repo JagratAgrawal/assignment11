@@ -1,0 +1,233 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .nav {
+        max-width: 100vw;
+        background: linear-gradient();
+        padding: 2%;
+        background: linear-gradient(
+          rgba(0, 0, 0, 1),
+          rgba(0, 0, 0, 0.9),
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0.7)
+        );
+      }
+      .nav_sub {
+        display: inline-block;
+        margin-inline: 5%;
+        color: white;
+      }
+      .active {
+        background-color: white;
+        color: black;
+        padding: 0.6% 1.5%;
+      }
+      .main-1 {
+        background-image: url("https://e0.pxfuel.com/wallpapers/850/763/desktop-wallpaper-construction-site-construction-work.jpg");
+        height: 500px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .main-2 {
+        height: 500px;
+        width: 100%;
+        /* border: 1px solid black; */
+      }
+      .main-2 > img {
+        margin: 2%;
+        width: 29%;
+        height: 90%;
+      }
+      .main-3 {
+        padding: 2%;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+      }
+      .main-3-sub1 {
+        width: 45%;
+        display: inline-block;
+        color: white;
+      }
+      .main-3-sub2 {
+        width: 45%;
+        display: inline-block;
+        margin: 1%;
+      }
+    </style>
+    <script>
+      document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+  return false;
+  }
+  }
+    </script>
+  <style data-jss="" data-meta="MuiDialog">
+@media print {
+  .MuiDialog-root {
+    position: absolute !important;
+  }
+}
+.MuiDialog-scrollPaper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MuiDialog-scrollBody {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.MuiDialog-scrollBody:after {
+  width: 0;
+  height: 100%;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+.MuiDialog-container {
+  height: 100%;
+  outline: 0;
+}
+@media print {
+  .MuiDialog-container {
+    height: auto;
+  }
+}
+.MuiDialog-paper {
+  margin: 32px;
+  position: relative;
+  overflow-y: auto;
+}
+@media print {
+  .MuiDialog-paper {
+    box-shadow: none;
+    overflow-y: visible;
+  }
+}
+.MuiDialog-paperScrollPaper {
+  display: flex;
+  max-height: calc(100% - 64px);
+  flex-direction: column;
+}
+.MuiDialog-paperScrollBody {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.MuiDialog-paperWidthFalse {
+  max-width: calc(100% - 64px);
+}
+.MuiDialog-paperWidthXs {
+  max-width: 444px;
+}
+@media (max-width:507.95px) {
+  .MuiDialog-paperWidthXs.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthSm {
+  max-width: 600px;
+}
+@media (max-width:663.95px) {
+  .MuiDialog-paperWidthSm.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthMd {
+  max-width: 960px;
+}
+@media (max-width:1023.95px) {
+  .MuiDialog-paperWidthMd.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthLg {
+  max-width: 1280px;
+}
+@media (max-width:1343.95px) {
+  .MuiDialog-paperWidthLg.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthXl {
+  max-width: 1920px;
+}
+@media (max-width:1983.95px) {
+  .MuiDialog-paperWidthXl.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperFullWidth {
+  width: calc(100% - 64px);
+}
+.MuiDialog-paperFullScreen {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  max-width: 100%;
+  max-height: none;
+  border-radius: 0;
+}
+.MuiDialog-paperFullScreen.MuiDialog-paperScrollBody {
+  margin: 0;
+  max-width: 100%;
+}
+</style><style type="text/css">#_copy{align-items:center;background:#4494d5;border-radius:3px;color:#fff;cursor:pointer;display:flex;font-size:13px;height:30px;justify-content:center;position:absolute;width:60px;z-index:1000}#select-tooltip,#sfModal,.modal-backdrop,div[id^=reader-helper]{display:none!important}.modal-open{overflow:auto!important}._sf_adjust_body{padding-right:0!important}.super_copy_btns_div{position:fixed;width:154px;left:10px;top:45%;background:#e7f1ff;border:2px solid #4595d5;font-weight:600;border-radius:2px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;z-index:5000}.super_copy_btns_logo{width:100%;background:#4595d5;text-align:center;font-size:12px;color:#e7f1ff;line-height:30px;height:30px}.super_copy_btns_btn{display:block;width:128px;height:28px;background:#7f5711;border-radius:4px;color:#fff;font-size:12px;border:0;outline:0;margin:8px auto;font-weight:700;cursor:pointer;opacity:.9}.super_copy_btns_btn:hover{opacity:.8}.super_copy_btns_btn:active{opacity:1}</style></head>
+  <body oncontextmenu="return false;" _c_t_j1="1">
+    <div class="nav">
+      <div class="nav_sub active">Home</div>
+      <div class="nav_sub">Services</div>
+      <div class="nav_sub">About</div>
+      <div class="nav_sub">Project</div>
+      <div class="nav_sub">Cotact</div>
+    </div>
+    <div class="main-1"></div>
+    <div class="main-2">
+      <img src="https://static7.depositphotos.com/1010826/675/v/450/depositphotos_6751521-stock-illustration-tower-cranes.jpg" alt="img-1">
+      <img src="https://wallpapers.com/images/featured/civil-engineering-pa6hvqgpaqfw6mgb.jpg" alt="img-2">
+      <img src="https://c1.wallpaperflare.com/preview/734/797/226/construction-site-building-concrete.jpg" alt="img-3">
+    </div>
+    <div class="main-3">
+      <p class="main-3-sub1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo placeat
+        consectetur quasi, molestiae omnis fugiat pariatur totam dolorum dolore!
+        Vero consequatur quaerat magnam possimus ut quam veritatis, quisquam hic
+        minima consequuntur doloremque, debitis dolorem mollitia totam alias
+        eius provident illum? Nostrum exercitationem quidem iure? Architecto
+        nulla nesciunt ad nobis aliquam?Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quidem veritatis dolorem iste minima rerum similique
+        atque laborum blanditiis, dolore ratione molestiae doloribus labore,
+        nobis sunt earum iure, dolores rem animi quas sequi error consequuntur?
+        Sint minus repellendus facere nemo nobis vitae itaque commodi et quaerat
+        magni maxime quam deserunt quod quis illo atque accusamus explicabo id
+        suscipit, sed a, error, inventore ut maiores? Necessitatibus obcaecati
+        cum delectus quos incidunt, adipisci molestias laboriosam, cumque amet
+        itaque rem fugit dolores totam id nemo non quae mollitia blanditiis
+        cupiditate assumenda. Ex vitae libero deleniti, dignissimos ratione
+        voluptates consequuntur quae expedita. In, temporibus facilis?
+      </p>
+      <img src="https://media.istockphoto.com/id/1202296779/photo/black-and-white-photo-structure-of-steel-for-building-construction.jpg?s=1024x1024&amp;w=is&amp;k=20&amp;c=zB6oytRiAmzlr-gQ1Qj0GTC7YOjo6fd5jeiW8Iuz78M=" class="main-3-sub2">
+    </div>
+  
+
+<div id="0BC3A2D0-3128-6C66-C563-C23431D63E7B"></div></body></html>
